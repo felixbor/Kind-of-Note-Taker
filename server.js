@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const ApiRoutes = require('./routes/ApiRoutes');
 const HtmlRoutes = require('./routes/HtmlRoutes');
-const Notes=require ('./db/db.json')
+
 
 // creating  port
 const PORT = process.env.PORT || 3001;
