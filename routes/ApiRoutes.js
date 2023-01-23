@@ -18,7 +18,7 @@ router.post('/notes', (req, res) => {
         console.log(req.body);
       let db =JSON.parse(fs.readFileSync('db/db.json',{encoding:"utf8"}))
         db.push(req.body);
-        console.log(db)
+        //console.log(db)
         //adding unique identifier
         req.body.id = uuidv4();
         fs.writeFileSync( 'db/db.json',

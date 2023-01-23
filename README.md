@@ -16,16 +16,18 @@
 
     
   ## Description
-  Note Taker is an online Node.js application that allows a user to take notes in a clean and organized way to improve task management and produc
+  Note Taker is an online Node.js application that allows a user to take notes in a clean and organized way to improve task management and productivity
 
   ## Installation
   Clone repo. Install: nmp I, npm install express, npm install uuidv4
-  or just go online:
+  or just go online: https://kind-of-note-taker.herokuapp.com/
 
   ## Usage
   Note Taker is a simple application that allows a user  to make notes ,  read , delete  and add them.when it's needed
-  Can 
-
+ To run app in your terminal please run Node server.js.
+ To quit app run CTRL+ C
+  ## Screenshot
+ ![screenshot](/public/assets/screenshots/screenshot.JPG)
   ## License
   This application is covered  under the mit license.
   
